@@ -1,3 +1,4 @@
+# Two Sum
 Using Hashing
 
 1) Initialize an empty hash Map map.
@@ -7,3 +8,14 @@ Using Hashing
    (c)   If yes then return index of num and complement
    (d)   put num[i],i in the hashmap
 3) return new IllegalArgumentexception("no two sum solution found")
+
+# Reverse Integer
+Intialize ans=0;
+1) rem = num%10 //This will give the last digit
+2) ans = ans*10+rem
+3) num=num/10
+
+4) To handle negative nums  
+    do num=-num if number is negative and return -ans
+5) To handle overflows declare a variable prev_ans to store and in each iteration
+	a) Now check if prev_ans-rem/10 == prev_ans.If not the it is overflowed so return 0.
