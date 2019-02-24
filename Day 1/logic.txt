@@ -1,0 +1,9 @@
+Using Hashing
+
+1) Initialize an empty hash Map map.
+2) Do following for each element A[i] in A[]
+   (a)   Find complement i.e target-A[i]
+   (b)   Check if complement exists in the hashmap
+   (c)   If yes then return index of num and complement
+   (d)   put num[i],i in the hashmap
+3) return new IllegalArgumentexception("no two sum solution found")
