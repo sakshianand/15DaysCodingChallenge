@@ -17,5 +17,5 @@ Intialize ans=0;
 
 4) To handle negative nums  
     do num=-num if number is negative and return -ans
-5) To handle overflows declare a variable prev_ans to store and in each iteration
+5) To handle overflows declare a variable prev_ans to store ans and in each iteration
 	a) Now check if prev_ans-rem/10 == prev_ans.If not the it is overflowed so return 0.
